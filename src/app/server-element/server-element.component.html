@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+  <div class="panel-heading" #heading>{{ element.name }}</div>
+  <div class="panel-body">
+    <!-- Ng Content allows us to specify the items in parent component that we want to show bewtween opening and closing tag 
+    elemnt.type==server can now be called using parent 
+    it will be rendered in place of ngcontent  -->
+    <!-- Ensure  auto-complete doesnt put but 'selector' in ngcontent  -->
+    <ng-content>
+
+    </ng-content>
+  </div>
+</div>
